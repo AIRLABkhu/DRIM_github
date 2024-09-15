@@ -37,7 +37,6 @@ Follow the instructions below to begin testing our model in different scenarios.
 ```
 python3 test_other_l515.py --exp 'weights/path/to/your/folder'
 python3 test_other_kinect.py --exp 'weights/path/to/your/folder'
-
 ```
 
 ## 2. License
