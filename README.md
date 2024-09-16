@@ -17,7 +17,7 @@ Through ablation studies, we confirm that classifying and utilizing artifacts is
 Also, we demonstrate the effectiveness of training by employing a shared encoder structure.
 ```
 ### Framework
-<img width="681" alt="main_architecture_3d" src="https://github.com/user-attachments/assets/308e0f7e-2ffb-49ce-9341-ddded2ae2cda">
+<img width="1080" alt="main_architecture_3d" src="https://github.com/user-attachments/assets/308e0f7e-2ffb-49ce-9341-ddded2ae2cda">
 
 ## 1. Usage
 
