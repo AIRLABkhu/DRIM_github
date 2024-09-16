@@ -4,10 +4,20 @@
 
 ### Abstract
 ```
-
+LiDAR depth cameras are widely used for accurate depth measurements in numerous studies.
+However, a drawback of these cameras is that interference occurs in multiple camera systems, resulting in artifacts in the depth data.
+These artifacts pose challenges for restoration using existing image restoration methods.
+In this paper, we propose a novel approach, DRIM for depth restoration.
+Our method begins to distinguish between artifacts of interfered depth.
+We then propose a method that utilizes a shared encoder structure to predict these artifacts, leveraging them to restore depth.
+Previously, no dataset was available for learning interference in multiple LiDAR depth cameras.
+Therefore, we create and provide a depth interference dataset for the first time.
+Our experiments demonstrate superior depth restoration performance compared to other image restoration methods, and we show the capability to restore depth in challenging scenarios. 
+Through ablation studies, we confirm that classifying and utilizing artifacts is efficient for depth restoration.
+Also, we demonstrate the effectiveness of training by employing a shared encoder structure.
 ```
 ### Framework
-
+<img width="681" alt="main_architecture_3d" src="https://github.com/user-attachments/assets/308e0f7e-2ffb-49ce-9341-ddded2ae2cda">
 
 ## 1. Usage
 
@@ -15,7 +25,7 @@
 
 - Conda environment
 ```
-
+conda env create -f environment.yaml
 ```
 
 ### 1.2 Training
