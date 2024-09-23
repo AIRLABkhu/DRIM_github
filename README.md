@@ -1,4 +1,4 @@
-# DRIM: Depth Restoration with Interference Mitigation in \\Multiple LiDAR Depth Cameras
+# DRIM: Depth Restoration with Interference Mitigation in Multiple LiDAR Depth Cameras
 
 ## 0. Summary
 
@@ -39,6 +39,7 @@ python3 train.py --exp 'save/path/to/your/folder'
 ### 1.3 Testing
 
 Follow the instructions below to begin testing our model.
+The best weights are [here](https://drive.google.com/drive/folders/1ANEa7L_j5Oz2kwvDbXlFHDLBR0aHwXF1?usp=drive_link).
 ```
 python3 test.py --exp 'weights/path/to/your/folder'
 ```
